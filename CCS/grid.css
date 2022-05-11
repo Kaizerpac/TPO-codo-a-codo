@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Public Sans", sans serif;
+    font-size: 1.2rem;
+    min-height: 100%;
+}
+
+.grid-container>* {
+    box-shadow: -1px 1px 7px 0px rgb(16, 17, 17);
+    border-radius: 4px;
+    padding: 4px;
+    text-align: none;
+}
+
+@media (min-width: 700px) {
+    .grid-container {
+        display: grid;
+        gap: 2px;
+        grid-template:
+            "header header header header header header header" 10% "article article article article article aside aside" 82% "footer footer footer footer footer footer footer" 8% / 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
+    }
+}
+
+.header1 {
+    size-adjust: 10%;
+    grid-area: header;
+    background-color: rgb(93, 102, 102);
+}
+
+.article2 {
+    grid-area: article;
+    background-color: rgb(11, 156, 156);
+}
+
+.aside3 {
+    grid-area: aside;
+    background-color: rgb(93, 102, 102);
+}
+
+.footer4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    grid-area: footer;
+    background-color: rgb(93, 102, 102);
+}
+
+@media (max-width: 700px) {
+    .grid-container {
+        grid-template:
+            "header header header" 10% "article article aside" 82% "footer  footer footer" 8% / 35% 30% auto;
+    }
+}
+
+@media (max-width: 350px) {
+    .grid-container {
+        grid-template:
+            "header header" 10% "article aside" 82% "footer footer" 8% / 65% auto;
+    }
+}

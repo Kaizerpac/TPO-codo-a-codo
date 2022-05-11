@@ -10,7 +10,6 @@ document.getElementById("header").innerHTML=`
             <span class="der">
                 <a class="navsup" href="index.html">Principal</a>
                 <a class="navsup" href="contactos.html">contactos</a>
-                <a class="navsup" href="nosotros.html">nosotros</a>
                 <a class="navsup" href="servicios.html">Servicios</a>
                 <a class="navsup" href="productos.html">Productos</a>
                 <a class="navsup" href="sugerencias.html">Sugerencias</a>
@@ -23,6 +22,6 @@ document.getElementById("footer").innerHTML=`
         <a href="https://www.whatsapp.com"><i class="fa-brands fa-autoprefixer fa-lg"></i></a>
         <a href="https://www.facebook.com"><i class="fa-brands fa-facebook fa-lg"></i></a>
         </nav>
-        <p>Derechos Reservados 2022</p>
+        <p >Derechos Reservados 2022</p>
 `
 
