@@ -22,6 +22,4 @@ document.getElementById("footer").innerHTML=`
         <a href="https://www.whatsapp.com"><i class="fa-brands fa-autoprefixer fa-lg"></i></a>
         <a href="https://www.facebook.com"><i class="fa-brands fa-facebook fa-lg"></i></a>
         </nav>
-        <p >Derechos Reservados 2022</p>
-`
-
+        <p text-aline: center>Derechos Reservados 2022
