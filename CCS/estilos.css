@@ -1,106 +1,152 @@
-header{
+header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;  
-    /*width: 100%;*/
+    text-align: center;
+    
 }
-h1,h2{
+
+h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;  
+    text-align: center;
 }
-h3{
+
+h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;  
+    text-align: center;
+    color: aliceblue;
 }
-a{
+h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: aliceblue;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: aliceblue; 
+}
+a {
     text-align: center;
     size: 2px;
 }
-h4{
+
+h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center; 
+    text-align: center;
 }
-.dr{
+
+.dr {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center; 
+    text-align: center;
 }
-.marco{
+
+.marco {
     width: 50%;
     padding: 10px;
     margin: 10px;
     border: 10px;
     box-shadow: -1px 1px 7px 0px rgb(16, 17, 17);
-    display:block;
+    display: block;
 }
-#casas{
-    margin:5px auto;
-    display:block;
+
+#casas {
+    margin: 5px auto;
+    display: block;
     width: 55%;
     box-shadow: -1px 1px 7px 0px rgb(16, 17, 17);
     padding: 8px;
 }
-#casasg{
-    margin:5px auto;
-    display:block;
+
+#casasg {
+    margin: 5px auto;
+    display: block;
     width: 30%;
     box-shadow: -1px 1px 7px 0px rgb(16, 17, 17);
     padding: 8px;
     float: right;
 }
-#casass{
+
+#casass {
     margin: 3px;
     width: 22%;
     box-shadow: -1px 1px 7px 0px rgb(16, 17, 17);
     padding: 7px;
 }
-#logos{
-    width: 9%;
+
+#casasc {
+    margin: 8px;
+    width: 23%;
+    box-shadow: -1px 1px 7px 0px rgb(16, 17, 17);
+    padding: 3px;
+    
+}
+#logoscryto {
+    width: 7%;
+    margin: 20px;
+}
+
+#logos {
+    width: 7%;
+    margin: 20px;
+}
+
+#btc {
+    width: 100%;
+    position: relative;
     border-style: groove;
-
 }
 
-main{
-    text-align: center;  
-}
-.centrado{
+main {
     text-align: center;
 }
-.izq{
+
+.centrado {
+    text-align: center;
+}
+
+.izq {
     text-align: left;
 }
-.der{
+
+.der {
     text-align: right;
 }
-.navsup{
+
+.navsup {
     size: 15%;
-    background-color: rgb(118, 184, 184);
     margin: auto;
     box-shadow: -1px 1px 7px 0px rgb(16, 17, 17);
     border-radius: 3px;
     padding: 2px;
+    text-decoration-color: rgb(93, 102, 102);
+    color: beige;
 }
-.blok1{
-    border: 1px solid rgb(212, 70, 70);
+
+.blok1 {
+    width: 100%;
+    border: 1px solid rgb(19, 17, 17);
     box-shadow: -1px 1px 7px 0px;
     border-radius: 3px;
+
 }
+
 .blok1-centrado {
     margin: 1%;
     grid-area: article;
-    border: 1px solid rgb(212, 70, 70);
+    border: 1px solid rgb(19, 17, 17);
+    box-shadow: -1px 1px 7px 0px;
+    border-radius: 3px;
+    padding: 12%;
+}
+
+.blok2 {
+    width: 100%;
+    border: 1px solid rgb(155, 19, 19);
     box-shadow: -1px 1px 7px 0px;
     border-radius: 3px;
 }
-.blok2{
-    border: 1px solid rgb(155, 19, 19); 
-    box-shadow: -1px 1px 7px 0px;
-    border-radius: 3px;
-}
-footer{
+
+footer {
     align-items: center;
     text-align: center;
 }
-
-
-
- 

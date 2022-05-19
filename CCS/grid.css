@@ -26,19 +26,24 @@ body {
         display: grid;
         gap: 2px;
         grid-template:
-            "header header header header header header header" 10% "article article article article article aside aside" 82% "footer footer footer footer footer footer footer" 8% / 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
+            "header header header header header header header" 120px "article article article article article aside aside" 1040px "footer footer footer footer footer footer footer" 100px / 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
     }
 }
 
 .header1 {
     size-adjust: 10%;
     grid-area: header;
-    background-color: rgb(93, 102, 102);
+    background: url(../Imagenes/grafica-con-monedas.jpg);
+    background: cover;
+    /*background-color: rgb(93, 102, 102);*/
 }
 
 .article2 {
     grid-area: article;
-    background-color: rgb(11, 156, 156);
+    background: url(../Imagenes/bitcoin\ en\ placa.jpg);
+   
+    
+    /*background-color: rgb(11, 156, 156);*/
 }
 
 .aside3 {
