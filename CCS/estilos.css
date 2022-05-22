@@ -1,12 +1,11 @@
 header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    
+    text-align: center;  
 }
-
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    color:khaki;
 }
 
 h2 {
@@ -48,8 +47,14 @@ h4 {
     box-shadow: -1px 1px 7px 0px rgb(16, 17, 17);
     display: block;
 }
-
+.caja{
+    display:inline-block;
+    padding-block-start: 20px;
+    margin-left: 130px;
+    font-size: 20px;
+}
 #casas {
+    transition-delay: 3s;
     margin: 5px auto;
     display: block;
     width: 55%;
@@ -82,12 +87,16 @@ h4 {
 }
 #logoscryto {
     width: 7%;
-    margin: 20px;
+    margin: 15px;
 }
-
+#logoscryto:hover{
+   border: .1px solid;
+   box-shadow: 2px;
+}
 #logos {
     width: 7%;
     margin: 20px;
+    
 }
 
 #btc {
@@ -95,7 +104,9 @@ h4 {
     position: relative;
     border-style: groove;
 }
-
+#graficaser{
+padding-left: 25%;
+}
 main {
     text-align: center;
 }
@@ -145,7 +156,12 @@ main {
     box-shadow: -1px 1px 7px 0px;
     border-radius: 3px;
 }
-
+.porc{
+    font-family: fantasy;
+    color: darkgoldenrod;
+    padding-left: 25%;
+   font-size: 3em; 
+}
 footer {
     align-items: center;
     text-align: center;

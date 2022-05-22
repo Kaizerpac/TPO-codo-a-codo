@@ -31,10 +31,10 @@ body {
 }
 
 .header1 {
-    size-adjust: 10%;
+    /*size-adjust: auto;*/
     grid-area: header;
+    position: relative;
     background: url(../Imagenes/grafica-con-monedas.jpg);
-    background: cover;
     /*background-color: rgb(93, 102, 102);*/
 }
 
